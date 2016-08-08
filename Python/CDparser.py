@@ -12,3 +12,5 @@ for f in listdir(path):
         print f + "lol";
         m = re.search('(\[.*\])(.*)(\[.*\])', cpath);
         print(m.group(0));
+
+# TODO SEPARATE GROUPS
